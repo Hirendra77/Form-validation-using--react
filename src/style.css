@@ -1,0 +1,44 @@
+form{
+    max-width: 400px;
+    margin: auto;
+}
+.form-group{
+    margin-bottom: 20px;
+}
+
+label{
+   display: block;
+   margin-bottom: 5px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input .is-valid{
+    border: 1px solid green;
+    outline: 1px solid green;
+}
+
+input .is-invalid{
+    border: 1px solid red;
+    outline: 1px solid red;
+}
+.errorMessage{
+ color: red;
+ font-size: 12px;
+ margin: 5px;
+}
+
+.btn{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background: #333;
+    color: #fff;
+    cursor: pointer;
+}
